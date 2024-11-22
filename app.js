@@ -13,7 +13,7 @@ app.use('/api', routes);
 
 // Default Route
 app.get('/', (req, res) => {
-  res.send('Welcome to the Dummy Node Express App!');
+  res.send('Welcome');
 });
 
 // Start the server
